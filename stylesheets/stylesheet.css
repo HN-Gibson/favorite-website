@@ -1,0 +1,17 @@
+:root {
+    --main-color:rgb(235, 217, 187);
+    --secondary-color:rgb(211, 211, 211);
+    --accent-color: rgb(5, 46, 12);
+    --shadow-color: rgba(0, 0, 0, 0.502);
+}
+
+nav {
+    background-color: var(--accent-color);
+    box-shadow: var(--shadow-color);
+    color: var(--main-color);
+}
+
+.navbar-brand, .nav-link, .navbar-toggler {
+    color: var(--main-color);
+}
+
