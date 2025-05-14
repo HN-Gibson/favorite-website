@@ -20,7 +20,7 @@ This has long been a concern and passion of mine and I wanted to try my hand at 
 
 - **Members Page** ('members.html') highlighting two organizations that started as a table, but I turned into a Bootstrap Carousel. 
 
-    -I hope to add a lot more organizations to this lest with some structures in place to store and pull data based on user requests. 
+    - I hope to add a lot more organizations to this lest with some structures in place to store and pull data based on user requests. 
 
 - **Sign-up Page** ('signup.html') offers a Bootstrap form with required fields noted if the user tries to submit without entering data as well as minimal email verification and a Boodstrap Modal that pops up upon successful entry.
 
