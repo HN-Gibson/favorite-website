@@ -26,7 +26,7 @@ This has long been a concern and passion of mine and I wanted to try my hand at 
 
     - **This is where three of my five JS functions are planned to be utilized in the effort to tighten verification of Phone and Email before receiving and saving data.**
 
-**FAQ and Feeedback Page** ('faq.html') is the heart of the website in some ways showcasing a Bootstrap Accordion List of questions and answers as well as a open means for users to offer feedback.
+- **FAQ and Feeedback Page** ('faq.html') is the heart of the website in some ways showcasing a Bootstrap Accordion List of questions and answers as well as a open means for users to offer feedback.
 
     - **This is where the other two JS functions are utilized to verify entry into the field and save data. I would also like to potentially add contact info and verification in the future.**
 
