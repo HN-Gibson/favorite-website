@@ -15,3 +15,7 @@ nav {
     color: var(--main-color);
 }
 
+.navbar-toggler {
+  background-color: var(--main-color); 
+}
+

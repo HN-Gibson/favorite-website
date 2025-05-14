@@ -3,17 +3,22 @@
 let feedback = [];
 
 function addFeedback(message) {
-  feedback.push(message);
-  return feedback;
+    let validFeedback = validateFeedback(message);
+    if (validFeedback === true) {
+        feedback.push(message);
+        return feedback;
+    } else {
+        return ("Feedback was empty!")
+    }
 }
 
 // Verify Feedback Submission
 
 function validateFeedback(submittedFeedback){
     if (submittedFeedback !== "") {
-        submittedFeedback.addFeedback();
+        return true;
     } else {
-        return ("No Feedback Entered.");
+        return false;
     }
 }
 
@@ -43,8 +48,8 @@ function validatePhone(phone){
 let userData = []
 
 function saveUserData (submittedUserData){
-    let validEmail = submittedUserData[1].validateEmail();
-    let validPhone = submittedUserData[2].validatePhone();
+    let validEmail = validateEmail(submittedUserData[1]);
+    let validPhone = validatePhone(submittedUserData[2]);
     if (validEmail === true && validPhone === true) {
         userData.push(submittedUserData);
         return userData;
@@ -53,6 +58,9 @@ function saveUserData (submittedUserData){
     }
 }
 
-// Post Sign-up Data to Public List of Organizations
+let message = "Great Website!"
 
-// Update Sign-up Data
+let submittedUserData = ["Help Team", "help@team.com", "205-555-5555", "We Offer Assistance"]
+
+console.log(addFeedback(message)); // Runs both validation and saving
+console.log(saveUserData(submittedUserData)); // Runs both validation and saving
